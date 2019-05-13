@@ -1,5 +1,5 @@
-Coturn TURN server for Zimbra Talk Users
-========================================
+Coturn TURN server for Zimbra Talk
+==================================
 
 ## What is Coturn TURN server?
 
@@ -27,7 +27,7 @@ docker build -t coturn-zimbra .
 docker run -v /var/log:/var/log -p 3478:3478 -p 3479:3479 -p 3478:3478/udp -p 3479:3479/udp -p 1000-1500:1000-1500/udp -d coturn-zimbra
 ```
 
-## How to use in Zimbra
+## Zimbra Talk users
 ```bash
 su - zimbra
 zxsuite talk iceServer add turn:<TURN SERVER PUBLIC IP>:3478?transport=udp credential youhavetoberealistic username ninefingers
