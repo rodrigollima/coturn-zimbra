@@ -32,7 +32,6 @@ EXPOSE 5350/tcp
 EXPOSE 1500-2000/udp
 
 RUN chmod +x start_coturn.sh
-
 CMD ["./start_coturn.sh"]
 
 

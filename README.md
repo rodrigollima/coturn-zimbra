@@ -36,6 +36,3 @@ zxsuite talk iceServer add turn:<TURN SERVER PUBLIC IP>:3478?transport=udp crede
 ### Why so many ports opened?
 
 As per [RFC 5766 Section 6.2], these are the ports that the TURN server will use to exchange media.
-
-
-
